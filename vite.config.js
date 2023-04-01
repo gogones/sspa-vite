@@ -24,7 +24,7 @@ export default defineConfig(({mode}) => {
       // modulePreload: false,
       // target: 'esnext',
       // minify: false,
-      // cssCodeSplit: false,
+      cssCodeSplit: false,
 
       rollupOptions: {
         input: 'src/sspa-main.jsx',
