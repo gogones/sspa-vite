@@ -15,7 +15,7 @@ export default defineConfig({
     // shared: ['react','react-dom']
   // })
   ],
-  base: import.meta.env.BASE_URL,
+  // base: import.meta.env.BASE_URL,
   build: {
     // modulePreload: false,
     // target: 'esnext',
