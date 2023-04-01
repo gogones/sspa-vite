@@ -17,10 +17,10 @@ export default defineConfig({
   ],
   // base: import.meta.env.BASE_URL,
   build: {
-    // modulePreload: false,
-    // target: 'esnext',
-    // minify: false,
-    // cssCodeSplit: false,
+    modulePreload: false,
+    target: 'esnext',
+    minify: false,
+    cssCodeSplit: false,
     rollupOptions: {
       input: 'src/sspa-main.jsx',
       format: 'system',
