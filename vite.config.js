@@ -20,11 +20,15 @@ export default defineConfig({
     // modulePreload: false,
     // target: 'esnext',
     // minify: false,
-    cssCodeSplit: false,
+    // cssCodeSplit: false,
+
     rollupOptions: {
       input: 'src/sspa-main.jsx',
       format: 'system',
-      preserveEntrySignatures: true
+      preserveEntrySignatures: true,
+      output: {
+        entryFileNames: 'sspa-main.js',
+      }
     },
   }
 })
